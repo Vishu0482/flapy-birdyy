@@ -1,5 +1,4 @@
 # flapy-birdyy
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -38,8 +37,8 @@ canvas{
 const canvas=document.getElementById("game");
 const ctx=canvas.getContext("2d");
 
-const gravity=0.3;
-const jump=-6;
+const gravity=0.5;
+const jump=-9;
 
 let score=0;
 let gameOver=false;
