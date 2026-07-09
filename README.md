@@ -39,7 +39,7 @@ const canvas=document.getElementById("game");
 const ctx=canvas.getContext("2d");
 
 const gravity=0.3;
-const jump=-9;
+const jump=-6;
 
 let score=0;
 let gameOver=false;
