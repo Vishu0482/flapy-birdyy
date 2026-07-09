@@ -38,7 +38,7 @@ canvas{
 const canvas=document.getElementById("game");
 const ctx=canvas.getContext("2d");
 
-const gravity=0.5;
+const gravity=0.3;
 const jump=-9;
 
 let score=0;
@@ -54,7 +54,7 @@ const bird={
 
 const pipes=[];
 const gap=170;
-const pipeWidth=70;
+const pipeWidth=50;
 const pipeSpeed=2.8;
 
 function createPipe(){
